@@ -5,3 +5,7 @@ func main() {
 	result := 2 + 2
 	println("result is: ", result)
 }
+
+func someFunc() {
+	print("Hi there")
+}
