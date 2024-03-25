@@ -2,8 +2,12 @@ package main
 
 func main() {
 	println("hello world")
-	result := 2 + 2
+	result := getResult()
 	println("result is: ", result)
+}
+
+func getResult() int {
+	return 2 + 2
 }
 
 func someFunc() {
